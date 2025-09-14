@@ -1,0 +1,744 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+  scroll-behavior: smooth;
+  transition: .3s;
+}
+body{
+  background-color: #f0f8ff;
+    color: #000;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    height: 739vh;
+}
+.main-contaner, .home-section, .second-section {
+    padding-top: 13vh;
+    position: relative;
+    left: 4px;
+}
+header{
+    background: white;
+    width: 100%;      
+    height: 13vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 7px 3px #22c55e47;
+    z-index: 1000; 
+    overflow-x: hidden;
+}
+.point-box{
+  background: #22c55e;
+    width: 36%;
+    height: 7vh;
+    border-radius: 50px;
+    color: #fff;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
+.point-box h1{
+    position: relative;
+    top: 1px;
+    left: 1rem;
+    font-size: 23px;
+}
+.point-box span{
+  position: relative;
+    top: -36px;
+    left: 60px;
+    color: #fff;
+    font-weight: 700;
+}
+.logo{
+  position: fixed;
+    top: 24px;
+    left: 1rem;
+    width: 78%;
+    height: 5vh;
+}
+.logo h3{
+position: relative;
+    left: 19rem;
+    top: -5px;
+    font-size: 22px;
+}
+.logo h1{
+color: #22c55e;
+    position: relative;
+    left: 10rem;
+    top: -3rem;
+    font-size: 24px;
+}
+.home-section h1{
+font-size: 61px;
+    position: relative;
+    top: -3rem;
+    text-align: center;
+    left: -1rem;
+    color: #22c55e;
+    line-height: 70px;
+}
+
+.home-section img{
+width: 100%;
+    position: relative;
+    top: -4rem;
+    animation: rotate infinite 15s 
+linear;
+    left: -12px;
+}
+.home-section h6{
+width: 97%;
+    position: relative;
+    font-size: 21px;
+    text-align: center;
+    line-height: 43px;
+    top: -3rem;
+    font-weight: 600;
+}
+.home-section button{
+position: relative;
+    top: 0rem;
+    left: 27%;
+    background: #22c55e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 7px 3px #22c55e47;
+}
+.second-section{
+  height: 100vh;
+    background-color: #fff;
+    position: relative;
+    top: 2rem;
+}
+.second-section h1{
+  color: #22c55e;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    position: relative;
+    top: 2rem;
+    left: -1rem;
+}
+.second-section .box1{
+  background: #fef08a;
+    width: 80%;
+    position: relative;
+    left: 25px;
+    top: 6rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 23px;
+    box-shadow: 0px 0px 10px 2px #d9d9d9;
+    border: 1px solid #a17037;
+    transition: .3s;
+}
+.second-section .box1 h2{
+  color: #a17037;
+}
+.second-section .box1 p{
+  color: #a17037;
+}
+.second-section .box1:hover{
+  transform: translateY(-24px);
+}
+.second-section .box2{
+background: #cbf9db;
+    width: 80%;
+    position: relative;
+    left: 25px;
+    top: 10rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 23px;
+    box-shadow: 0px 0px 10px 2px #d9d9d9;
+    border: 1px solid #166534;
+    transition: .3s;
+
+}
+.second-section .box2 h2{
+  color: #166534;
+}
+.second-section .box2 p{
+  color: #166534;
+}
+.second-section .box2:hover{
+  transform: translateY(-24px);
+}
+.second-section .box3{
+background: #cee3fe;
+    width: 80%;
+    position: relative;
+    left: 25px;
+    top: 15rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 23px;
+    box-shadow: 0px 0px 10px 2px #d9d9d9;
+    border: 1px solid #1d4ed8;
+    transition: .3s;
+}
+.second-section .box3 h2{
+  color: #1d4ed8;
+}
+.second-section .box3 p{
+  color: #1d4ed8;
+}
+.second-section .box3:hover{
+  transform: translateY(-24px);
+}
+.third-section{
+  padding: 20px;
+    position: relative;
+    top: 59rem;
+    height: 113vh;
+    background: #009a9414;
+    left: -4px;
+}
+.third-section h1{
+  width: 100%;
+    text-align: center;
+    font-size: 45px;
+    position: absolute;
+    left: 0px;
+    color: #22c55e;
+}
+.top-bar {
+      background: #00a86b;
+      color: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      width: fit-content;
+      margin: 10px auto;
+      font-size: 18px;
+    }
+    .task-center {
+    background: #f8eaff;
+    border: 2px solid #e0c6ff;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 20px auto;
+    width: 91%;
+    position: absolute;
+    top: 7rem;
+    left: 15px;
+    height: 35vh;
+    }
+    .task-center h3{
+    text-align: center;
+    color: #6b21a8;
+    font-size: 28px;
+    width: 84%;
+    left: 2rem;
+    position: relative;
+    line-height: 36px;
+    }
+    .task-btn {
+      background: linear-gradient(45deg, #ff4fa1, #6b21a8);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    top: 3rem;
+    width: 100%;
+    }
+    .hidden {
+      display: none;
+    }
+    .task-box {
+        margin-top: 68px;
+    background: #f8eaff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 20px 1px #8f8f8f;
+    }
+    .add-btn {
+      background: #00a86b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-top: 8px;
+    position: relative;
+    left: 62px;
+    top: 0rem;
+    }
+    .green-points {
+    height: 30vh;
+    background: #c6f6c6;
+    border-radius: 10px;
+    padding: 10px;
+    width: 78%;
+    margin: 20px auto;
+    font-size: 18px;
+    position: absolute;
+    left: 38px;
+    text-align: center;
+    top: 30rem;
+    font-size: 31px;
+    padding-top: 2rem;
+    }
+    .green-points h3{
+    font-size: 13px;
+    position: relative;
+    top: -1rem;
+    text-align: center;
+    width: 100%;
+    }
+    .green-points h1{
+      font-size: 27px;
+    top: -1rem;
+    position: relative;
+    }
+    .green-points span{
+    position: relative;
+    top: -1rem;
+    left: 1px;
+    font-size: 46px;
+    color: #16823e;
+    }
+.fourth-section{
+  position: relative;
+    background: #fff;
+    width: 100%;
+    height: 88vh;
+    top: 59rem;
+    left: -4px;
+}
+.fourth-section h1{
+  text-align: center;
+    color: #ea580c;
+    font-size: 45px;
+    top: 2rem;
+    position: relative;
+}
+.cont-box{
+  background: #fff6c8;
+    position: relative;
+    top: 4rem;
+    width: 84%;
+    left: 2rem;
+    border-radius: 14px;
+    height: 84vh;
+}
+.cont-box img{
+  width: 70%;
+    position: relative;
+    left: 15%;
+    top: 3rem;
+    border: #fb923c 10px;
+    padding: 10px;
+}
+.cont-box h3{
+  position: relative;
+    text-align: center;
+    top: 4rem;
+    color: #a33412;
+    width: 60%;
+    font-size: 29px;
+    line-height: 33px;
+    left: 4rem;
+}
+.cont-box p{
+  color: #a33412;
+    position: relative;
+    left: 0rem;
+    top: 6rem;
+    text-align: center;
+    font-size: 17px;
+}
+
+.fifth-section{
+  position: relative;
+    background: #d8d3fe;
+    width: 91%;
+    height: 100vh;
+    top: 70rem;
+    left: 1rem;
+    border-radius: 25px;
+    border: 2px solid blue;
+}
+.fifth-section h1{
+  width: 20%;
+    position: relative;
+    left: 102px;
+    line-height: 66px;
+    top: 5rem;
+    font-size: 97px;
+}
+.fifth-section h3{
+      color: #3730a3;
+    font-size: 37px;
+    position: relative;
+    top: 8rem;
+    text-align: center;
+}
+.fifth-section p{
+  color: #3730a3;
+    font-size: 19px;
+    text-align: center;
+    top: 10rem;
+    position: relative;
+}
+.fifth-section .icon-box{
+  position: relative;
+    top: 14rem;
+    text-align: center;
+    gap: 15px;
+    display: flex;
+    left: 63px;
+    font-size: 24px;
+}
+
+.sexth-section{
+  position: relative;
+    background: #22c55e;
+    width: 102%;
+    height: 26vh;
+    top: 71rem;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    margin-left: -6px;
+}
+.sexth-section h1{
+  position: relative;
+    top: 1rem;
+}
+.sexth-section h4{
+  font-size: 14px;
+    top: 1rem;
+    position: relative;
+}
+.sexth-section p{
+  position: relative;
+    top: 2rem;
+    font-size: 13px;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  
+}
+
+/* For medium devices */
+@media screen and (min-width: 576px) {
+  
+}
+
+/* For large devices */
+@media screen and (min-width: 1150px) {
+  body{
+    background-color: #f0f8ff;
+    color: #000;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    height: 539vh;
+  }
+  .logo{
+    width: 100%;
+        position: relative;
+        left: 61rem;
+        top: -1rem;
+  }
+  .point-box{
+    width: 9%;
+    position: relative;
+    left: 13rem;
+  }
+  .home-section h1{
+    font-size: 579%;
+        position: relative;
+        top: 1rem;
+  }
+  .home-section img{
+    width: 35%;
+        position: relative;
+        top: -1rem;
+        left: 30rem;
+  }
+  .home-section h6{
+    font-weight: 300;
+        font-size: 2rem;
+        width: 54%;
+        left: 22rem;
+  }
+  .home-section button{
+    position: relative;
+        left: 42rem;
+  }
+  .fifth-section{
+  position: relative;
+    background: #d8d3fe;
+    width: 91%;
+    height: 100vh;
+    top: 22rem;
+    left: 1rem;
+    border-radius: 25px;
+    border: 2px solid blue;
+}
+.sexth-section{
+position: relative;
+        background: #22c55e;
+        width: 100%;
+        height: 18vh;
+        top: 10rem;
+        color: #fff;
+        font-size: 10px;
+        text-align: center;
+        margin-left: -6px;
+}
+  .second-section .box1{
+  background: #fef08a;
+    width: 24%;
+    position: relative;
+    left: 10rem;
+    top: 6rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 23px;
+    box-shadow: 0px 0px 10px 2px #d9d9d9;
+    border: 1px solid #a17037;
+    transition: .3s;
+}
+.second-section .box2{
+background: #cbf9db;
+    width: 24%;
+    position: relative;
+    left: 37rem;
+    top: -14rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 23px;
+    box-shadow: 0px 0px 10px 2px #d9d9d9;
+    border: 1px solid #166534;
+    transition: .3s;
+
+}
+.second-section .box3{
+background: #cee3fe;
+    width: 24%;
+    position: relative;
+    left: 65rem;
+    top: -34rem;
+    height: 46vh;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 23px;
+    box-shadow: 0px 0px 10px 2px #d9d9d9;
+    border: 1px solid #1d4ed8;
+    transition: .3s;
+}
+.fourth-section{
+      position: relative;
+    background: #fff;
+    width: 100%;
+    height: 88vh;
+    top: 2rem;
+    left: -4px;
+}
+.third-section h1{
+  width: 100%;
+        text-align: center;
+        font-size: 61px;
+        position: absolute;
+        left: 0px;
+        color: #22c55e;
+        top: 0rem;
+}
+.task-center h3{
+  text-align: center;
+        width: 100%;
+        top: 1rem;
+        left: 1rem;
+}
+.third-section {
+   padding: 20px;
+    position: relative;
+    top: 2rem;
+    height: 113vh;
+    background: #009a9414;
+    left: -4px;
+}
+.task-center{
+  top: 9rem;
+        width: 50%;
+        left: 23rem;
+        height: 26vh;
+}
+.task-btn{
+  top: 3rem;
+        width: 50%;
+        left: 12rem;
+}
+.green-points{
+top: 29rem;
+        width: 50%;
+        left: 23rem;
+        height: 26vh;
+}
+.green-points span{
+  position: relative;
+    top: 3rem;
+    left: 1px;
+    font-size: 46px;
+    color: #16823e;
+}
+.green-points h3{
+  font-size: 13px;
+    position: relative;
+    top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+.fourth-section h1{
+  text-align: center;
+        font-size: 4rem;
+}
+.cont-box{
+  width: 54%;
+        position: relative;
+        left: 22rem;
+        height: 48vh;
+}
+.cont-box img{
+  width: 24%;
+        left: 20rem;
+        top: 2rem;
+}
+.cont-box h3{
+  text-align: center;
+        width: 100%;
+        left: 0rem;
+        top: 2rem;
+}
+.cont-box p{
+  top: 3rem;
+}
+
+.fifth-section{
+  position: relative;
+    background: #d8d3fe;
+    width: 52%;
+    height: 64vh;
+    top: 6rem;
+    left: 22rem;
+    border-radius: 25px;
+    border: 2px solid blue;
+    line-height: 18px;
+}
+
+}
+
+
+/* For 2K resolutions (2048 x 1152, 2048 x 1536) */
+
+

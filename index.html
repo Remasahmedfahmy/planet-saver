@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="main img.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-contaner">
+            <header>
+                <div class="point-box">
+                    <h1 id="topPoints"> 0</h1> 
+                    <span>نقاطك<ion-icon name="leaf-outline"></ion-icon></span>
+                </div>
+                <div class="logo">
+                    <h3>🌍</h3>
+                    <h1>منقذ الكوكب</h1>
+                </div>
+            </header>
+
+            <div class="home-section">
+                <h1>منقذ الكوكب</h1>
+                <img src="earth img.png" alt="img">
+                <h6>انضم إلى مهمة إنقاذ كوكبنا! أكمل التحديات الصديقة للبيئة، واكسب النقاط الخضراء، وكن بطلاً للبيئة! </h6>
+                <button> <a href="#test" style="text-decoration: none; color: #fff;"> مهمتك ابدأ</a> </button>
+            </div>
+            <div class="second-section">
+                <h1>ما هي التكنولوجيا الخضراء؟</h1>
+                <div class="box1">
+                    <ion-icon style="font-size: 7rem; position: relative; color: #a17037;" name="sunny-outline"></ion-icon>
+                    <h2>الطاقة الشمسية</h2>
+                    <p>استغل قوة الشمس لتوليد كهرباء نظيفة! الألواح الشمسية تحول ضوء الشمس إلى طاقة دون تلوث.</p>
+                </div>
+                <div class="box2">
+                    <ion-icon style="font-size: 7rem; position: relative; color: #16a34a;" name="reload-outline"></ion-icon>
+                    <h2>إعادة التدوير</h2>
+                    <p>حوّل المواد القديمة إلى كنوز جديدة! إعادة التدوير تقلل من النفايات وتحافظ على الموارد الطبيعية للأجيال القادمة.</p>
+                </div>
+                <div class="box3">
+                    <ion-icon style="font-size: 7rem; position: relative; color: #2563eb;" name="bicycle-outline"></ion-icon>
+                    <h2>النقل النظيف</h2>
+                    <p>امشِ، اركب دراجتك، أو استخدم المركبات الكهربائية لتقليل تلوث الهواء! كل خطوة نحو النقل النظيف تساعد كوكبنا على التنفس بشكل أفضل.</p>
+                </div>
+            </div>
+            <div id="test" class="third-section">
+                <h1>مهماتك البيئية</h1>
+                <div class="task-center">
+                    <h3>  مركز التحكم بالمهام </h3>
+                    <button class="task-btn" onclick="showTask()">احصل على مهمة جديدة!</button>
+                    <div id="taskBox" class="task-box hidden">
+                    <p style="text-align: center;" id="taskText"></p>
+                    <button class="add-btn" onclick="addPoint()">أضف نقطة إلى حسابك</button>
+                    </div>
+                </div>
+                <div class="green-points">
+                     <h1>نقاطك الخضراء</h1>
+                     <span id="greenPoints">0</span>
+                     <h3>استمر! كل عمل تقوم به يُحدث فرقًا!</h3>
+                </div>
+            </div>
+            <div class="fourth-section">
+                <h1> ! شارك المهمه  </h1>
+                <div class="cont-box">
+                    <img src="QR.png" alt="img">
+                    <h3>رمز الاستجابة السريعة قريبًا!</h3>
+                    <p>امسح الرمز هنا للوصول إلى تطبيقنا على الهاتف المحمول أو العرض التقديمي وشارك "منقذ الكوكب" مع أصدقائك! </p>
+                </div>
+            </div>
+            <div class="fifth-section">
+                <h1>🌍✨</h1>
+                <h3>...تذكر أيها البطل الصغير</h3>
+                <p>"لو أن كل شخص حافظ على نقطة واحدة،لأنقذنا الكوكب بأسره!" 🌟</p>
+                <div class="icon-box">
+                    <ion-icon style="color: green;" name="leaf-outline"></ion-icon>
+                    <ion-icon style="color: gray;" name="trail-sign-outline"></ion-icon>
+                    <ion-icon style="color: yellow;" name="cloud-outline"></ion-icon>
+                    <ion-icon style="color: blue;" name="sunny-outline"></ion-icon>
+                    <ion-icon style="color: green;" name="water-outline"></ion-icon>
+                    <ion-icon name="tree-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="sexth-section">
+                <h1> 🌍 منقذ الكوكب - نصنع أبطال الأرض، نقطة بنقطة </h1>
+                <h4>استمر في جمع النقاط الخضراء وإنقاذ كوكبنا الجميل! 💚</h4>
+                <p> &#169; All Rights Reserved By Renad </p>
+            </div>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
